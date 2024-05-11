@@ -1,0 +1,124 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Add your custom CSS styles here */
+/* Basic structure and styling */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+/* Form styling */
+.expense-form,
+.income-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+/* List styling */
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Chart styling */
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif; /* Use the Poppins font from Google Fonts */
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Adjust width as needed */
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.expense-form,
+.income-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between form elements */
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Expense List Styles */
+.expense-list {
+  margin-bottom: 20px;
+}
+
+.expense-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Chart Styles */
+.chart-container {
+  display: flex;
+  flex-direction: column; /* Stack charts vertically */
+  gap: 20px;
+}
+
+.expense-summary,
+.expense-trends {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
