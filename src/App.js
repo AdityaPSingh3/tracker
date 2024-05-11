@@ -13,7 +13,7 @@ function App() {
   const [expenses, setExpenses] = useState([]);
   const [walletBalance, setWalletBalance] = useState(
     parseFloat(localStorage.getItem("walletBalance")) || 5000
-  );
+  )/;
 
   useEffect(() => {
     const storedExpenses = JSON.parse(localStorage.getItem("expenses")) || [];
